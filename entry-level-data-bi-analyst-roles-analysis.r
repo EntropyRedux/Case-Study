@@ -2,13 +2,13 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "2abf4c19",
+   "id": "98da725d",
    "metadata": {
     "papermill": {
-     "duration": 0.003067,
-     "end_time": "2024-08-06T03:18:16.690756",
+     "duration": 0.003382,
+     "end_time": "2024-08-06T04:45:09.265899",
      "exception": false,
-     "start_time": "2024-08-06T03:18:16.687689",
+     "start_time": "2024-08-06T04:45:09.262517",
      "status": "completed"
     },
     "tags": []
@@ -20,13 +20,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "1889155d",
+   "id": "b11bb07c",
    "metadata": {
     "papermill": {
-     "duration": 0.002439,
-     "end_time": "2024-08-06T03:18:16.695885",
+     "duration": 0.002634,
+     "end_time": "2024-08-06T04:45:09.271404",
      "exception": false,
-     "start_time": "2024-08-06T03:18:16.693446",
+     "start_time": "2024-08-06T04:45:09.268770",
      "status": "completed"
     },
     "tags": []
@@ -40,71 +40,54 @@
   },
   {
    "cell_type": "markdown",
-   "id": "2824865f",
+   "id": "3c35d8b0",
    "metadata": {
     "papermill": {
-     "duration": 0.002433,
-     "end_time": "2024-08-06T03:18:16.700746",
+     "duration": 0.00265,
+     "end_time": "2024-08-06T04:45:09.276680",
      "exception": false,
-     "start_time": "2024-08-06T03:18:16.698313",
+     "start_time": "2024-08-06T04:45:09.274030",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
-    "## Objectives And Methodology\n",
+    "## Objectives, Methodology and Tools\n",
     "\n",
-    "| **Category**  | **Objective/Methodology**                                                                                           |\n",
-    "|---------------|---------------------------------------------------------------------------------------------------------------------|\n",
-    "| **Primary**   | **Determine which skills are most frequently required/preferred for the job. As well as the tools.**               |\n",
-    "|               | **Perform Average count for responsibilities. Analyze the skills and responsibilities by grouping and then comparing jobs with > and < AVG number of responsibilities.** |\n",
-    "|               | **Determine the variety of job titles and sectors that require DA and BI jobs.**                                        |\n",
-    "| **Secondary** | Compare skill requirements between freelance and regular job postings.                                          |\n",
-    "|               | Examine how job type (e.g., full-time, part-time, freelance) and work setup (e.g., on-site, remote) influence required skills and qualifications. |\n",
-    "|               | Evaluate the relationship between job responsibilities and skill needs.                                               |\n",
-    "|               | Explore the benefits and qualifications commonly associated with these positions.                                  |\n",
-    "|               | Explore the Phases of Data Analysis (Google Data Analytics) in relation to the responsibilities.                     |\n",
-    "|               | Univariate Analysis on Salary information (most job postings do not provide salary information).                     |\n",
-    "| **Methodology** | **Data Cleaning and Manipulation**: Prepare and standardize data to ensure it is accurate and suitable for analysis. |\n",
-    "|               | **Frequency Analysis**: Determine the most frequently occurring values in the dataset.                             |\n",
-    "|               | **Comparative Analysis**: Compare values across different categories or groups to identify differences and similarities. |\n",
-    "|               | **Correlation Analysis**: Assess relationships between variables to identify potential connections.                 |\n",
-    "|               | **Statistical Analysis**: Perform descriptive statistics to summarize data and provide insights.                    |\n",
-    "|               | **Cross Referencing**: Integrate and verify data across different tables to ensure consistency and completeness.     |\n",
-    "|               | **Visualization**: Develop charts and graphs to simplify data interpretation and highlight key findings.            |\n",
-    "|               | **Reporting**: Compile a comprehensive report detailing the analysis, findings, and insights.                       |\n"
+    "| **Steps**     | **Description**                                                                                           |\n",
+    "|------------------|---------------------------------------------------------------------------------------------------------------------|\n",
+    "| **Primary Objectives**      | **Determine which skills are most frequently required/preferred for the job. As well as the tools.**               |\n",
+    "|                  | Perform Average count for responsibilities. Analyze the skills and responsibilities by grouping and then comparing jobs with > and < AVG number of responsibilities. |\n",
+    "|                  | Determine the variety of job titles and sectors that require DA and BI jobs.                                         |\n",
+    "| **Secondary Objectives**    | **Compare skill requirements between freelance and regular job postings.**                                          |\n",
+    "|                  | Examine how job type (e.g., full-time, part-time, freelance) and work setup (e.g., on-site, remote) influence required skills and qualifications. |\n",
+    "|                  | Evaluate the relationship between job responsibilities and skill needs.                                               |\n",
+    "|                  | Explore the benefits and qualifications commonly associated with these positions.                                  |\n",
+    "|                  | Explore the Phases of Data Analysis (Google Data Analytics) in relation to the responsibilities.                     |\n",
+    "|                  | Univariate Analysis on Salary information (most job postings do not provide salary information).                     |\n",
+    "| **Methodology**  | **Data Cleaning and Manipulation**: Prepare and standardize data to ensure it is accurate and suitable for analysis. |\n",
+    "|                  | **Frequency Analysis**: Determine the most frequently occurring values in the dataset.                             |\n",
+    "|                  | **Comparative Analysis**: Compare values across different categories or groups to identify differences and similarities. |\n",
+    "|                  | **Correlation Analysis**: Assess relationships between variables to identify potential connections.                 |\n",
+    "|                  | **Statistical Analysis**: Perform descriptive statistics to summarize data and provide insights.                    |\n",
+    "|                  | **Cross Referencing**: Integrate and verify data across different tables to ensure consistency and completeness.     |\n",
+    "|                  | **Visualization**: Develop charts and graphs to simplify data interpretation and highlight key findings.            |\n",
+    "|                  | **Reporting**: Compile a comprehensive report detailing the analysis, findings, and insights.                       |\n",
+    "| **Tools**        | [**PostgreSQL**](https://www.postgresql.org/) - For database creation, data collection, and Analysis                                               |\n",
+    "|                  | [**Tableau**](https://public.tableau.com/app/profile/entropy) - For Visualizations and Reporting                                                                      |\n",
+    "|                  | [**Kaggle R Notebook**](https://www.kaggle.com/marvinbulahan) - For Publishing                                                                              |\n",
+    "|                  | [**dBDiagram.io**](https://dbdiagram.io/) - For schema diagram                                                                               |\n"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "bf2ff6a6",
+   "id": "4a746cd9",
    "metadata": {
     "papermill": {
-     "duration": 0.00232,
-     "end_time": "2024-08-06T03:18:16.705459",
+     "duration": 0.00257,
+     "end_time": "2024-08-06T04:45:09.281888",
      "exception": false,
-     "start_time": "2024-08-06T03:18:16.703139",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "## Tools\n",
-    "- **PostgreSQL** - For database creation, data collection and Analysis\n",
-    "- **Tableau** - For Visualizations and Reporting\n",
-    "- **Kaggle R Notebook** - For Publishing\n",
-    "- **dBDiagram.io** - For schema diagram"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "793213d9",
-   "metadata": {
-    "papermill": {
-     "duration": 0.002265,
-     "end_time": "2024-08-06T03:18:16.710093",
-     "exception": false,
-     "start_time": "2024-08-06T03:18:16.707828",
+     "start_time": "2024-08-06T04:45:09.279318",
      "status": "completed"
     },
     "tags": []
@@ -163,13 +146,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "f6d893bb",
+   "id": "b00b1692",
    "metadata": {
     "papermill": {
-     "duration": 0.002279,
-     "end_time": "2024-08-06T03:18:16.714647",
+     "duration": 0.002611,
+     "end_time": "2024-08-06T04:45:09.287108",
      "exception": false,
-     "start_time": "2024-08-06T03:18:16.712368",
+     "start_time": "2024-08-06T04:45:09.284497",
      "status": "completed"
     },
     "tags": []
@@ -181,19 +164,19 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "34770361",
+   "id": "72eb6c24",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-08-06T03:18:16.723826Z",
-     "iopub.status.busy": "2024-08-06T03:18:16.721574Z",
-     "iopub.status.idle": "2024-08-06T03:18:17.956614Z",
-     "shell.execute_reply": "2024-08-06T03:18:17.954571Z"
+     "iopub.execute_input": "2024-08-06T04:45:09.297022Z",
+     "iopub.status.busy": "2024-08-06T04:45:09.294445Z",
+     "iopub.status.idle": "2024-08-06T04:45:10.450068Z",
+     "shell.execute_reply": "2024-08-06T04:45:10.447768Z"
     },
     "papermill": {
-     "duration": 1.247732,
-     "end_time": "2024-08-06T03:18:17.964680",
+     "duration": 1.168727,
+     "end_time": "2024-08-06T04:45:10.458485",
      "exception": false,
-     "start_time": "2024-08-06T03:18:16.716948",
+     "start_time": "2024-08-06T04:45:09.289758",
      "status": "completed"
     },
     "tags": []
@@ -229,13 +212,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "35ee9a87",
+   "id": "cd93d626",
    "metadata": {
     "papermill": {
-     "duration": 0.009918,
-     "end_time": "2024-08-06T03:18:17.984940",
+     "duration": 0.011183,
+     "end_time": "2024-08-06T04:45:10.480129",
      "exception": false,
-     "start_time": "2024-08-06T03:18:17.975022",
+     "start_time": "2024-08-06T04:45:10.468946",
      "status": "completed"
     },
     "tags": []
@@ -276,14 +259,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 4.612113,
-   "end_time": "2024-08-06T03:18:18.115758",
+   "duration": 4.45735,
+   "end_time": "2024-08-06T04:45:10.612194",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2024-08-06T03:18:13.503645",
+   "start_time": "2024-08-06T04:45:06.154844",
    "version": "2.6.0"
   }
  },
